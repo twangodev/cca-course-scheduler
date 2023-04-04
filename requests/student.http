@@ -1,0 +1,13 @@
+GET http://{{url}}/student
+Content-Type: application/json
+
+###
+
+POST http://{{url}}/student
+Content-Type: application/json
+
+{
+  "studentID": 123456,
+  "name": "John Doe",
+  "graduationYear": 2023
+}
